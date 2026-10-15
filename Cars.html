@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" xml:lang="ar" dir="rtl">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>السيارات | مكتب الأصدقاء لتأجير السيارات</title>
+<link rel="stylesheet" type="text/css" href="style.css" /></head>
+<body>
+<!--HDR--><div id="top"><div class="wrap bar"><div class="brand"><b>مكتب الأصدقاء</b><span>لتأجير السيارات</span></div><ul class="nav"><li><a href="home.html">الرئيسية</a></li><li><a href="AboutUs.html">من نحن</a></li><li><a href="Cars.html" class="on">السيارات</a></li></ul></div></div><!--/HDR-->
+<div class="wrap">
+<!--MAIN--><h2>السيارات المتاحة</h2>
+<div class="scroll"><table><thead><tr><th>الرمز</th><th>الصورة</th><th>الموديل</th><th>سنة الصنع</th><th>السعر اليومي</th><th>إظهار التفاصيل</th><th>اختيار</th></tr></thead><tbody>
+<tr><td>CR-001</td><td><img src="images/car-corolla.jpg" alt="Toyota Corolla" width="96" height="60" /></td><td class="en" dir="ltr">Toyota Corolla</td><td>2023</td><td>250,000 ل.س</td><td><label><input type="checkbox" class="det" value="CR-001" /><span class="vh">إظهار التفاصيل</span></label></td><td><label><input type="checkbox" class="pick" value="CR-001" /><span class="vh">اختيار</span></label></td></tr>
+<tr class="drow" id="d-CR-001"><td colspan="7"><ul class="dl"><li><b>الوقود:</b>بنزين</li><li><b>ناقل الحركة:</b>أوتوماتيك</li><li><b>المقاعد:</b>5</li><li><b>العداد:</b>18,000 كم</li><li><b>اللون:</b>فضي</li></ul></td></tr>
+<tr><td>CR-002</td><td><img src="images/car-sportage.jpg" alt="Kia Sportage" width="96" height="60" /></td><td class="en" dir="ltr">Kia Sportage</td><td>2022</td><td>400,000 ل.س</td><td><label><input type="checkbox" class="det" value="CR-002" /><span class="vh">إظهار التفاصيل</span></label></td><td><label><input type="checkbox" class="pick" value="CR-002" /><span class="vh">اختيار</span></label></td></tr>
+<tr class="drow" id="d-CR-002"><td colspan="7"><ul class="dl"><li><b>الوقود:</b>بنزين</li><li><b>ناقل الحركة:</b>أوتوماتيك</li><li><b>المقاعد:</b>5</li><li><b>العداد:</b>32,000 كم</li><li><b>اللون:</b>أبيض</li></ul></td></tr>
+<tr><td>CR-003</td><td><img src="images/car-elantra.jpg" alt="Hyundai Elantra" width="96" height="60" /></td><td class="en" dir="ltr">Hyundai Elantra</td><td>2024</td><td>300,000 ل.س</td><td><label><input type="checkbox" class="det" value="CR-003" /><span class="vh">إظهار التفاصيل</span></label></td><td><label><input type="checkbox" class="pick" value="CR-003" /><span class="vh">اختيار</span></label></td></tr>
+<tr class="drow" id="d-CR-003"><td colspan="7"><ul class="dl"><li><b>الوقود:</b>بنزين</li><li><b>ناقل الحركة:</b>أوتوماتيك</li><li><b>المقاعد:</b>5</li><li><b>العداد:</b>9,000 كم</li><li><b>اللون:</b>أبيض</li></ul></td></tr>
+<tr><td>CR-004</td><td><img src="images/car-spark.jpg" alt="Chevrolet Spark" width="96" height="60" /></td><td class="en" dir="ltr">Chevrolet Spark</td><td>2021</td><td>180,000 ل.س</td><td><label><input type="checkbox" class="det" value="CR-004" /><span class="vh">إظهار التفاصيل</span></label></td><td><label><input type="checkbox" class="pick" value="CR-004" /><span class="vh">اختيار</span></label></td></tr>
+<tr class="drow" id="d-CR-004"><td colspan="7"><ul class="dl"><li><b>الوقود:</b>بنزين</li><li><b>ناقل الحركة:</b>يدوي</li><li><b>المقاعد:</b>4</li><li><b>العداد:</b>47,000 كم</li><li><b>اللون:</b>رمادي</li></ul></td></tr>
+<tr><td>CR-005</td><td><img src="images/car-symbol.jpg" alt="Renault Symbol" width="96" height="60" /></td><td class="en" dir="ltr">Renault Symbol</td><td>2020</td><td>150,000 ل.س</td><td><label><input type="checkbox" class="det" value="CR-005" /><span class="vh">إظهار التفاصيل</span></label></td><td><label><input type="checkbox" class="pick" value="CR-005" /><span class="vh">اختيار</span></label></td></tr>
+<tr class="drow" id="d-CR-005"><td colspan="7"><ul class="dl"><li><b>الوقود:</b>بنزين</li><li><b>ناقل الحركة:</b>يدوي</li><li><b>المقاعد:</b>5</li><li><b>العداد:</b>61,000 كم</li><li><b>اللون:</b>بني</li></ul></td></tr>
+</tbody></table></div>
+<div class="btns"><input type="button" id="go" class="btn" value="متابعة" /></div><p class="err" id="msg"></p>
+<form id="bookForm" action="Cars.html" method="post"><fieldset><legend>بيانات طلب الحجز</legend>
+<p class="chosen" id="chosen"></p>
+<div class="row"><label for="f-name">الاسم الكامل (أحرف عربية)</label><input type="text" id="f-name" name="name" /><span class="err" id="e-name"></span></div><div class="row"><label for="f-nid">الرقم الوطني (11 خانة) *</label><input type="text" id="f-nid" name="nid" maxlength="11" /><span class="err" id="e-nid"></span></div><div class="row"><label for="f-d1">تاريخ بداية التأجير (yyyy-mm-dd) *</label><input type="text" id="f-d1" name="d1" maxlength="10" /><span class="err" id="e-d1"></span></div><div class="row"><label for="f-d2">تاريخ نهاية التأجير (yyyy-mm-dd) *</label><input type="text" id="f-d2" name="d2" maxlength="10" /><span class="err" id="e-d2"></span></div><div class="row"><label for="f-mob">رقم الموبايل (Syriatel / MTN)</label><input type="tel" id="f-mob" name="mob" maxlength="10" /><span class="err" id="e-mob"></span></div><div class="row"><label for="f-mail">البريد الإلكتروني</label><input type="email" id="f-mail" name="mail" /><span class="err" id="e-mail"></span></div>
+<div class="btns"><input type="submit" id="send" class="btn" value="إرسال" /></div></fieldset></form>
+<div id="res" class="ov"><div class="box"><h2>ملخص الحجز</h2><div id="resBody"></div><div class="btns"><input type="button" id="resClose" class="btn" value="إغلاق" /></div></div></div><!--/MAIN-->
+</div>
+<div id="ftr"><div class="wrap">© 2026 مكتب الأصدقاء لتأجير السيارات — جميع الحقوق محفوظة</div></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="myFunctions.js"></script>
+</body></html>
